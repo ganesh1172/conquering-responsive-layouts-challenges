@@ -42,9 +42,14 @@ button:hover{
     background-color: aqua;
 }
 
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 73rem) {
+    .intro {
+      width: 80%;
+    }
+}
 
+@media only screen and (max-width: 48rem) {
     .intro {
       width: 100%;
     }
-  }
+}
