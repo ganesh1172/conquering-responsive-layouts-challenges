@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: #23424A;
+    color: #fff;
+    padding: 4rem;
+}
+
+.intro {
+    width: 50%;
+}
+
+h1{
+    font-size: 6vmin;
+}
+
+p{
+    font-size: 2.5vmin;
+    margin: 1rem 0;
+}
+
+button{
+    font-size: 2.8vmin;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #38CFD9;
+    color: #23424A;
+    margin: 1rem 0;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 48rem) {
+
+    .intro {
+      width: 100%;
+    }
+  }
